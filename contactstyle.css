@@ -1,0 +1,134 @@
+body{
+    background-image: url(backgd.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.logo{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.smp{
+    position: absolute;
+    left: 85px;
+    top: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(50, 19, 228);
+    font-size: 25px;
+}
+.pharma{
+    position: absolute;
+    left: 85px;
+    top: 27px;
+    color:rgb(50, 19, 228);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.back{
+    font-size: 17px;
+    position: absolute;
+    top:5px;
+    right:10px;
+    color: black;
+}
+
+.box{
+    width: 500px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    padding: 10px;
+    position: absolute;
+    left:60px;
+    top: 250px;
+    
+}
+.register{
+    margin: 40px;
+}
+.text{
+    font-size: 5%;
+    font-weight: bold;
+    color: crimson;
+    text-align: center;
+    text-indent: 0px;
+}
+
+.container{
+    width: 55%;
+    margin: 30px auto;
+}
+.contact-box{
+    background: white;
+    display: flex;
+}  
+.contact-left{
+    flex-basis: 60%;
+    padding: 30px 50px;
+}  
+.contact-right{
+    flex-basis: 40%;
+    padding: 60px;
+    background:#1c00b5 ;
+    color: white;
+}  
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 50px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: 1c00b5;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: floralwhite;
+}
+
+.foot{
+    
+    position: relative;
+    background: darkgray;
+    color: ghostwhite;
+    text-align: end;
+    font-size: 20px;
+
+    right: 0px;
+    top: 850px;
+}

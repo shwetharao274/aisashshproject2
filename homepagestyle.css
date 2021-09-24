@@ -1,0 +1,71 @@
+.smp{
+    position: absolute;
+    left: 85px;
+    top: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(50, 19, 228);
+    font-size: 25px;
+}
+.pharma{
+    position: absolute;
+    left: 85px;
+    top: 27px;
+    color:rgb(50, 19, 228);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.logo{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+}
+.aboutus , .contact {
+    position: absolute;
+    top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: brown;
+}
+
+.aboutus{
+    position: absolute;
+    right: 110px;
+}
+
+.contact{
+    position: absolute;
+    right: 20px;
+}
+
+
+.text{
+    font-size: 40%;
+    font-weight: bolder;
+    color: crimson;
+    text-align: center;
+
+}
+.text1{
+    font-size: 15%;
+    text-align:  center;
+    color: black;
+}
+
+.foot{
+    background: darkgray;
+    color: ghostwhite;
+    text-align: end;
+    font-size: 20px;
+}
+body{
+    background-image: url(bgg4.jpeg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,57 @@
+body{
+    background-image: url(backgd.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.smp{
+    position: absolute;
+    left: 85px;
+    top: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(50, 19, 228);
+    font-size: 25px;
+}
+.pharma{
+    position: absolute;
+    left: 85px;
+    top: 27px;
+    color:rgb(50, 19, 228);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.back{
+    font-size: 17px;
+    position: absolute;
+    top:5px;
+    right:10px;
+    color: black;
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.foot{
+    background: darkgray;
+    color: ghostwhite;
+    text-align: end;
+    font-size: 20px;
+    padding: 5px;
+}
